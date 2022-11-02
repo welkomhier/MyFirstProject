@@ -1,0 +1,53 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://welkomhier.github.io/MyFirstProject/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Map Bruges",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "This is a beautiful map",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Erfgoed Brugge",
+  "sequences" : [ {
+    "@id" : "http://4dd65690-c8ea-4889-bd48-cc86c9857262",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://1595126a-5fec-4313-a052-5286c0d7a0d8",
+      "@type" : "sc:Canvas",
+      "label" : "Map Bruges",
+      "height" : 12760,
+      "width" : 21138,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7e35da01-36a3-4f1f-a721-6954a731b2f4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://free.iiifhosting.com/iiif/c58a479ef64ec38dd3dfd782b29f81c81b059cddeb2c24e75624e43ebef336b1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://free.iiifhosting.com/iiif/c58a479ef64ec38dd3dfd782b29f81c81b059cddeb2c24e75624e43ebef336b1",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 12760,
+          "width" : 21138
+        },
+        "on" : "http://1595126a-5fec-4313-a052-5286c0d7a0d8"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
