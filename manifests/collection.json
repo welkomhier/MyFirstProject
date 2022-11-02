@@ -1,0 +1,13 @@
+{
+  "id" : "https://welkomhier.github.io/MyFirstProject/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in welkomhier/MyFirstProject project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://welkomhier.github.io/MyFirstProject/manifests/manifest.json",
+    "label" : "Map Bruges"
+  } ]
+}
